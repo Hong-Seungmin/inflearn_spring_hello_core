@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Primary
 //@Qualifier("mainDiscountPolicy")
+//@MainDiscountPolicy
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int discountPercent = 10;
@@ -20,3 +21,5 @@ public class RateDiscountPolicy implements DiscountPolicy{
         }
     }
 }
+
+
